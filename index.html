@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jmarser">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Reloj Digital</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="text__header">RELOJ DIGITAL</h1>
+    </header>
+    <main>
+        <div class="datetime">
+            <div class="date">
+                <span id="dia">Dia</span>,
+                <span id="diaNum">00</span>
+                <span id="mes">Mes</span>,
+                <span id="anio">Año</span>
+            </div>
+            <div class="time">
+                <span id="hora">00</span>:
+                <span id="minutos">00</span>:
+                <span id="segundos">00</span>
+                <span id="periodo">AM</span>
+            </div>
+            <div class="formato">
+                <label class="toggle" id="toggle-formato" for="toggle">
+                    <span>24h</span>
+                    <input type="checkbox" id="toggle" class="checkbox">
+                    <span class="slider"></span>
+                    <span>12h</span>
+                </label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Jmarser" class="link" target="_blank">
+            <img src="./img/logo_sin.ico" alt="" class="img__footer">
+        </a>
+        <span>Jmarser</span>
+        <a href="https://creativecommons.org/licenses/?lang=es_ES" target="_blank">
+            <img src="./img/licencias_cc_bysa.png" alt="" class="img__footer">
+        </a>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
